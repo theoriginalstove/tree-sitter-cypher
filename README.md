@@ -11,6 +11,9 @@ A tree-sitter parser for cypher query files.
 
 ## References
 
+[Cypher Query Language Reference](https://s3.amazonaws.com/artifacts.opencypher.org/openCypher9.pdf)
+
+
 <!-- NOTE: add the grammar's references here -->
 
 [ci]: https://img.shields.io/github/actions/workflow/status/tree-sitter-grammars/tree-sitter-PARSER_NAME/ci.yml?logo=github&label=CI

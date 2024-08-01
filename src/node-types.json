@@ -1,0 +1,24 @@
+[
+  {
+    "type": "comment",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "match_clause",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "MANDATORY",
+    "named": false
+  },
+  {
+    "type": "MATCH",
+    "named": false
+  },
+  {
+    "type": "OPTIONAL",
+    "named": false
+  }
+]

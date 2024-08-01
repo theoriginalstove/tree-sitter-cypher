@@ -1,0 +1,86 @@
+{
+  "name": "cypher",
+  "rules": {
+    "match_clause": {
+      "type": "SEQ",
+      "members": [
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "CHOICE",
+              "members": [
+                {
+                  "type": "SYMBOL",
+                  "name": "_mandatory"
+                },
+                {
+                  "type": "SYMBOL",
+                  "name": "_optional"
+                }
+              ]
+            },
+            {
+              "type": "BLANK"
+            }
+          ]
+        },
+        {
+          "type": "ALIAS",
+          "content": {
+            "type": "PATTERN",
+            "value": "[mM][aA][tT][cC][hH]"
+          },
+          "named": false,
+          "value": "MATCH"
+        }
+      ]
+    },
+    "comment": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "SYMBOL",
+          "name": "_single_line_comment"
+        }
+      ]
+    },
+    "_single_line_comment": {
+      "type": "PATTERN",
+      "value": "\\/\\/.*"
+    },
+    "_mandatory": {
+      "type": "ALIAS",
+      "content": {
+        "type": "PATTERN",
+        "value": "[mM][aA][nN][dD][aA][tT][oO][rR][yY]"
+      },
+      "named": false,
+      "value": "MANDATORY"
+    },
+    "_optional": {
+      "type": "ALIAS",
+      "content": {
+        "type": "PATTERN",
+        "value": "[oO][pP][tT][iI][oO][nN][aA][lL]"
+      },
+      "named": false,
+      "value": "OPTIONAL"
+    }
+  },
+  "extras": [
+    {
+      "type": "SYMBOL",
+      "name": "comment"
+    },
+    {
+      "type": "PATTERN",
+      "value": "\\s+"
+    }
+  ],
+  "conflicts": [],
+  "precedences": [],
+  "externals": [],
+  "inline": [],
+  "supertypes": []
+}
