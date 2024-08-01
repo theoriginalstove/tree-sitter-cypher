@@ -1,14 +1,13 @@
-# tree-sitter-PARSER_NAME
+# tree-sitter-cypher
 
-[![CI][ci]](https://github.com/tree-sitter-grammars/tree-sitter-PARSER_NAME/actions/workflows/ci.yml)
+[![CI][ci]](https://github.com/theoriginalstove/tree-sitter-cypher/actions/workflows/ci.yml)
 [![discord][discord]](https://discord.gg/w7nTvsVJhm)
 [![matrix][matrix]](https://matrix.to/#/#tree-sitter-chat:matrix.org)
 <!-- NOTE: uncomment these if you're publishing packages: -->
-<!-- [![npm][npm]](https://www.npmjs.com/package/tree-sitter-PARSER_NAME) -->
-<!-- [![crates][crates]](https://crates.io/crates/tree-sitter-PARSER_NAME) -->
-<!-- [![pypi][pypi]](https://pypi.org/project/tree-sitter-PARSER_NAME/) -->
+<!-- [![npm][npm]](https://www.npmjs.com/package/tree-sitter-cypher) -->
+<!-- [![crates][crates]](https://crates.io/crates/tree-sitter-cypher) -->
 
-A tree-sitter parser for PARSER_NAME files.
+A tree-sitter parser for cypher query files.
 
 ## References
 
